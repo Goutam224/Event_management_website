@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
     $sendgrid_api_key = 'YOUR_SENDGRID_API_KEY';
     $email_subject = 'Adorn Flora';
     $email_body = 'Thank you for booking your date. Regards, Adorn Flora.';
-    $from_email = 'tester91314@gmail.com';
+    $from_email = 'sender id';
     $from_name = 'Adorn Flora';
 
     $email = new \SendGrid\Mail\Mail();
