@@ -14,11 +14,11 @@ if (isset($_POST['submit'])) {
     
     if ($done) {
         // Send email using SendGrid
-        $sendgrid_api_key = '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';
+        $sendgrid_api_key = 'sendgrid api key';
         $to_email = $email;
         $email_subject = 'Adorn Flora';
         $email_body = 'Thank you for filling the enquiry form. Our team will contact you within 24 hours to resolve your query. Regards, Adorn Flora.';
-        $from_email = 'adornflora01@gmail.com'; 
+        $from_email = 'sender id'; 
         $from_name = 'Adorn Flora';
 
         $email = new \SendGrid\Mail\Mail();
