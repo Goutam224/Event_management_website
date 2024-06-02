@@ -34,12 +34,12 @@ if (isset($_POST['submit'])) {
 
     // Send email confirmation using SendGrid
     $emailMessage = new SendGridMail();
-    $emailMessage->setFrom("adornflora01@gmail.com", "Adorn Flora");
+    $emailMessage->setFrom("sender id", "Adorn Flora");
     $emailMessage->setSubject("Adorn Flora - Booking Confirmation");
     $emailMessage->addTo($email, $name);
     $emailMessage->addContent("text/plain", "Thank you for booking with us. We will contact you shortly. Regards, Adorn Flora.");
 
-    $sendgrid = new \SendGrid('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');
+    $sendgrid = new \SendGrid('sendgrid api key');
 
     try {
         $response = $sendgrid->send($emailMessage);
