@@ -1,0 +1,56 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: rgb(255, 255, 255);
+   font-family: 'Caveat', cursive;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+   
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: bolder;
+  
+}
+span.navbar-toggler-icon{
+    color: white !important;
+}
+
+#navbutton{
+    background-color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+
+}
+
+
+.nav-link:hover{
+    color: red !important;
+    text-shadow: 3px 3px 6px blue !important;
+}
+
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px blue !important;
+}
+@media(max-width:668px){
+    .nav-link{
+        text-align: center;
+    }
+}
+
+.dropdown-item:hover{
+    background-color: red !important;
+    
+}
+#active{
+    color: blue !important;
+}
+#sitename span{
+ color: red !important;
+}

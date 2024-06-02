@@ -1,0 +1,28 @@
+
+  
+.container h1{
+    text-align: center !important;
+    font-weight: 400;
+}
+
+.card-img-top:hover{
+    color: white !important;
+    opacity: 0.2 !important;
+    text-align: center;
+   
+
+}
+
+.card-title{
+    text-align: center !important;
+    text-transform: capitalize !important;
+}
+
+.serviceanchor{
+    text-decoration: none !important;
+    color:black !important;
+    
+}
+.card-img-top{
+border-radius: 5px solid black !important; 
+}

@@ -1,0 +1,24 @@
+
+div.carousel-inner{
+   height: 750px !important; 
+}
+/* .carousel .carousel-item {
+ 
+  }  
+
+   */
+  .carousel-item img {
+   position:absolute;
+   object-fit:cover;
+      background-position:center;
+      top: 0;
+      left: 0;
+     width: 100%;
+     z-index: 90;
+ 
+  } 
+
+  .carousel-item img.border{
+   outline: 1px solid white;
+   outline-offset: -8px;
+  }

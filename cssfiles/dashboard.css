@@ -1,0 +1,13 @@
+
+h1.siteheading{
+    font-size: 100px ;
+    text-align: center;
+    margin-top: 220px;
+}
+h4.title{
+    text-align: center;
+    font-size: 50px;
+}
+h1 strong{
+    color: red;
+}

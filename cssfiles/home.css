@@ -1,0 +1,84 @@
+/* .container-fluid{
+    text-align: center; 
+  
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Raleway:ital,wght@0,400;1,300;1,400;1,500&family=Sassy+Frass&display=swap');
+  h1{
+    margin-top: 16px;
+    font-weight: 600;
+    text-align: center;
+    /* font-size:200px !important; */
+    font-family: 'Caveat', cursive;
+/*background-color: rgb(13, 208, 247);*/
+} 
+
+h3{
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    /* font-size:200px !important; */
+    font-family: 'Caveat', cursive;
+
+}
+
+/* div.container pre{
+    letter-spacing: 1.5px;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    overflow: auto;
+
+
+} */
+
+
+
+div.container p{
+    letter-spacing: 1.3px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+font-size: medium;
+}
+
+.container span{
+    font-size: 37px !important;
+    font-weight:500;
+    font-family: 'Caveat', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sassy Frass', cursive;
+}
+
+/* .centerlist ul li{
+display: inline;
+margin-left: 100px;
+padding-left: 100px;
+list-style-type:none;
+} */
+.centerlist ul {
+    list-style: none;
+    text-align: center;
+
+ }
+ 
+ .centerlist ul li {
+ 
+    display: inline-block;
+ }
+
+ .centerlist span{
+    font-size: 37px !important;
+    font-weight:500;
+    font-family: 'Caveat', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sassy Frass', cursive;
+}
+
+.centerlist ul li a{
+ 
+color: black;
+text-decoration: none;
+padding: 0px 22px 0px 22px;
+font-size: 70px;
+ }
+
+ 

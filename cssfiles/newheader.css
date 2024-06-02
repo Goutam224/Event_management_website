@@ -1,0 +1,48 @@
+/* header.css */
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.navbar-brand span {
+    color: #ffb400;
+}
+
+.navbar-toggler {
+    border-color: #ffb400;
+}
+
+.navbar-toggler-icon {
+    color: #ffb400;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffb400;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffb400;
+}
+
+.btn-outline-warning {
+    color: #ffb400;
+    border-color: #ffb400;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffb400;
+    color: #fff;
+}
